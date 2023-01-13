@@ -1,0 +1,31 @@
+<!--Parte del Front-end del registro de Usuarios no Registrados-->
+
+<div class="register">
+    <form class="custom-form" method="post">
+      <h1>¿Por favor, me Indica su Correo Electronico?</h1>
+      <input
+        type="email"
+        [(ngModel)]="email"
+        name="email"
+        placeholder="Email"
+        required="required"
+      />
+      <h1>Contraseña</h1>
+      <input
+        type="password"
+        [(ngModel)]="password"
+        name="password"
+        placeholder="Password"
+        required="required"
+      />
+      <h1>Repetir Contraseña</h1>
+      <input
+        type="password"
+        [(ngModel)]="confirmPassword"
+        name="password"
+        placeholder="Repeat the password"
+        required="required"
+      />
+      <button class="btn btn-light" type="submit" (click)="register()">Crear Cuenta</button>
+    </form>
+  </div>
