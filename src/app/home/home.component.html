@@ -1,11 +1,86 @@
-<h1>Cuando el usuario inicie sesion vera esto.</h1>
+  <nav class="navbar bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/login">
+        <img src="https://cdn-icons-png.flaticon.com/512/30/30946.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+        Gstory
+      </a>
+    </div>
+  </nav>
+<div  #mapDiv class="map-container"></div>
 
+<h1 class="centrar">MAS POPULARES</h1>
+<div class="colors">
+    <div class="container">
+   
+      
+         
+      <ngb-carousel>
+        <ng-template ngbSlide *ngFor="let image of images">
+            
+            <div class="wrapper">
+             <img [src]="image.src" alt="Random first slide">
+              
+           
+          <div class="carousel-caption">
+  
+              <h3>{{ image.title }}</h3>
+              <p>{{ image.short }}</p>
+            
+          </div>
+        </div>
+        </ng-template>
+      </ngb-carousel>
+    </div>    
 
+</div>  
 
-<google-map width="750px"
-            height="450px"
-            [center]="center"
-            [zoom]="zoom">
-</google-map>
+      <h1 class="centrar">Informacion Detallada </h1>
 
-<script  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAWwbXQX3bXv2Dz0QVsQcYDK12aWfZZ9x4"></script>
+<div class="colores">   
+
+      <div class="card" style="width: 18rem;">
+        <img src="https://cdn.cronica.uno/wp-content/uploads/2022/07/19054131/Esquinas-de-Caracas_43.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Esquina La Bolsa</h5>
+          <p class="card-text">Añadir un poco de su Historia</p>
+        </div>
+        <a href="#" class="btn btn-primary">Ir Aqui</a>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="https://cdn.cronica.uno/wp-content/uploads/2022/07/19054131/Esquinas-de-Caracas_43.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Esquina La Bolsa</h5>
+          <p class="card-text">Añadir un poco de su Historia</p>
+          
+        </div>
+        <a href="#" class="btn btn-primary">Ir Aqui</a>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="https://cdn.cronica.uno/wp-content/uploads/2022/07/19054131/Esquinas-de-Caracas_43.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Esquina La Bolsa</h5>
+          <p class="card-text">Añadir un poco de su Historia</p>
+          
+        </div>
+        <a href="#" class="btn btn-primary">Ir Aqui</a>
+      </div>
+      <div class="card"style="width: 18rem;" >
+        <img src="https://cdn.cronica.uno/wp-content/uploads/2022/07/19054131/Esquinas-de-Caracas_43.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Esquina La Bolsa</h5>
+          <p class="card-text">Añadir un poco de su Historia</p>
+          
+        </div>
+        <a href="#" class="btn btn-primary">Ir Aqui</a>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="https://cdn.cronica.uno/wp-content/uploads/2022/07/19054131/Esquinas-de-Caracas_43.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Esquina La Bolsa</h5>
+          <p class="card-text">Añadir un poco de su Historia</p>
+          
+        </div>
+        <a href="#" class="btn btn-primary">Ir Aqui</a>
+      </div>
+       
+</div>        
