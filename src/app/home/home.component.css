@@ -1,0 +1,68 @@
+.map-container{
+    
+    top: 0px;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.bg-body-tertiary{
+ background-color:  #2C7873;
+}
+.container-fluid{
+    background-color: #6FB98F;
+}
+
+.wrapper{
+    width: 450px;
+	height: 450px;
+	object-fit: cover;
+    
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    height: 3rem;
+}
+
+.card {
+    text-align: center;
+    border-top-left-radius: 10em;
+    border-top-right-radius: 10em;
+    border:none;
+    box-shadow: 0px 0px 10px #FFD800;
+    margin: 5px
+}
+.card img {
+    border-top-left-radius: 10em;
+    border-top-right-radius: 10em;
+    
+}
+.btn {
+    width: 100%;
+    padding: 0.75em 0.5em;
+    border-radius: 0;
+    background-color: teal;
+    border-color: teal;
+    background: #6FB98F;
+}
+.card-body{
+    background: #2C7873;
+}
+.colors{
+    background-color:#2C7873;
+    border-radius: 20px;
+
+}
+.centrar{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+.colores{
+    background-color:#2C7873;
+    display: flex;
+    justify-content:space-between;
+    margin: 25px;
+    border-radius: 10px;
+    margin-top: 50px;
+}

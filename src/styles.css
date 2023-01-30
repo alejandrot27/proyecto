@@ -51,3 +51,34 @@
     box-shadow: 3px 3px 8px #6FB98F, -3px -3px 8px #FFD800;
     cursor: pointer;
   }
+  
+  .custom-form-principal {
+
+    width: 90vw;
+    max-width: 700px;
+    margin: 0px auto;
+    background: rgba(255, 255, 255, 0.15);
+    padding: 2rem 3rem;
+    margin: auto;
+    border-radius: 2.5rem;
+    background-color: #2C7873;
+    box-shadow: 10px 10px 17px #6FB98F, -10px -10px 17px #FFD800;
+    color: black;
+    margin-top: 10rem;
+
+  }
+  .custom-form-principal button {
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    border: none;
+    font-size: 0.875rem;
+    color: black;
+    font-weight: bold;
+    background-color: #004445;
+    width: 100%;
+    display: block;
+    padding: 0.875rem 1rem;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    margin-top: 10px;
+  } 
